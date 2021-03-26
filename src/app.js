@@ -88,7 +88,6 @@ app.get('*', (req, res) => {
         errorMessage: 'Page not found.'
     })
 })
-
 app.listen(port, () => {
     console.log(`Server is up and running at http://localhost:${port}`)
 })
